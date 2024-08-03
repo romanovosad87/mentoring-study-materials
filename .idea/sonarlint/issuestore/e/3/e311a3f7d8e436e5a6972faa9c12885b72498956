@@ -1,0 +1,20 @@
+
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…¶ø8Ìó˜¶‘2J$0e34af0e-3416-45c7-82d9-02ac95cb34ca
+
+java:S1854">Remove this useless assignment to local variable "objectList".(ÌžºÞ8Ïó˜¶‘2J$10ec2f6a-65ce-4a89-b7f2-6680aae6f766
+‚
+java:S1854"?Remove this useless assignment to local variable "integerList".(ÞñÆŒ8Ïó˜¶‘2J$c29fb7e9-8047-47f4-ad19-72f8df982eb0
+†
+java:S1854">Remove this useless assignment to local variable "numberList".(ûÕð°ùÿÿÿÿ8Ñó˜¶‘2J$f84d7a37-50fb-47e0-a07f-6bfa2d3fa089
+‚
+java:S1854
+":Remove this useless assignment to local variable "number".(‰ô‡Êÿÿÿÿÿ8Ñó˜¶‘2J$65a081e4-197e-4219-b339-2e4443ace22d
+n
+java:S1481"+Remove this unused "number" local variable.(ôµ­‰8Ñó˜¶‘2J$85aefb37-fdf5-47a7-a380-489246cd6812
+w
+java:S1481"/Remove this unused "numberList" local variable.(ûÕð°ùÿÿÿÿ8Óó˜¶‘2J$6c8b7225-4a9b-443e-9e5b-a98b693f24b4
+s
+java:S1481"0Remove this unused "integerList" local variable.(ÞñÆŒ8Ôó˜¶‘2J$28504d92-ba35-4af6-b698-f598c5c4a78a
+r
+java:S1481"/Remove this unused "objectList" local variable.(ÌžºÞ8Õó˜¶‘2J$2d71a43a-b536-4b10-a06a-ab0fe5709614

@@ -5,8 +5,6 @@ D
 fundamentals/pom.xml,f\3\f31131d15cd26f6946608b041a66190e33fcc017
 W
 'fundamentals/src/main/java/DemoApp.java,0\3\03f37897333c039f6b49ba7087a2751f42fa36c1
-`
-0fundamentals/src/main/java/generics/DemoApp.java,f\2\f25342284d0405b9377eee67df074d0acf275e04
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 9
@@ -20,3 +18,23 @@ Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+b
+2fundamentals/src/main/java/generics/ReuseCode.java,5\0\506984fc6dcf1a2a850aa641edd5becb72418680
+f
+6fundamentals/src/main/java/generics/RawLinkedList.java,2\4\24e47ad64c3db16ee1701709b85c3995478a7873
+b
+2fundamentals/src/main/java/generics/Container.java,7\c\7c1fadf055fab1be444780bd3b6ac471e23d63d4
+c
+3fundamentals/src/main/java/generics/Covariance.java,e\3\e311a3f7d8e436e5a6972faa9c12885b72498956
+_
+/fundamentals/src/main/java/generics/Person.java,a\a\aa40b412b248c832836368984b37fc9a61df9834
+Å
+Q.idea/sonarlint/securityhotspotstore/2/4/24e47ad64c3db16ee1701709b85c3995478a7873,2\a\2ae839e3b46e1e565526943038da69948c97aaf9
+Å
+Q.idea/sonarlint/securityhotspotstore/e/3/e311a3f7d8e436e5a6972faa9c12885b72498956,6\0\60699e4dfe8835c3ddab20744bd01cb56aebca1d
+Å
+Q.idea/sonarlint/securityhotspotstore/7/c/7c1fadf055fab1be444780bd3b6ac471e23d63d4,3\b\3b62c824e3a369aba123a3a303698afea7c09fbf
+Å
+Q.idea/sonarlint/securityhotspotstore/5/0/506984fc6dcf1a2a850aa641edd5becb72418680,f\b\fb825ec79c90438c0775df3a9708887e75b06fef
+Å
+Q.idea/sonarlint/securityhotspotstore/0/3/03f37897333c039f6b49ba7087a2751f42fa36c1,6\2\623e0a70f3bbc92155a870ef5e5b1e50f77d750a
