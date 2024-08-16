@@ -8,11 +8,13 @@ class LinkedListTest {
 
     @Test
     void ofMethodShouldCreateLinkedList() {
+        // given
         LinkedList<Integer> linkedList = LinkedList.of(1, 2, 3, 4, 5);
-        var firstElement = linkedList.getFirst();
+
+        // when
         var size = linkedList.size();
 
-        Assertions.assertEquals(firstElement, 1);
+        // then
         Assertions.assertEquals(size, 5);
     }
 

@@ -23,8 +23,10 @@ public class LinkedList<T> implements List<T> {
      * @return a new list of elements the were passed as method parameters
      */
     public static <T> LinkedList<T> of(T... elements) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
-    }
+        LinkedList<T> linkedList = new LinkedList<>();
+        //todo: implement this method
+        return linkedList;
+        }
 
     /**
      * Adds an element to the end of the list.
@@ -33,7 +35,7 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public void add(T element) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        //todo: implement this method
     }
 
     /**
@@ -45,7 +47,7 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public void add(int index, T element) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        //todo: implement this method
     }
 
     /**
@@ -57,7 +59,7 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public void set(int index, T element) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+         // todo: implement this method
     }
 
     /**
@@ -69,7 +71,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public T get(int index) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        // todo: implement this method
+        return null;
     }
 
     /**
@@ -80,7 +83,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public T getFirst() {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        // todo: implement this method
+        return null;
     }
 
     /**
@@ -91,7 +95,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public T getLast() {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        // todo: implement this method
+        return null;
     }
 
     /**
@@ -103,7 +108,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public T remove(int index) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        // todo: implement this method
+        return null;
     }
 
 
@@ -114,7 +120,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public boolean contains(T element) {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        // todo: implement this method
+        return false;
     }
 
     /**
@@ -124,7 +131,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public boolean isEmpty() {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+         // todo: implement this method
+        return false;
     }
 
     /**
@@ -134,7 +142,8 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public int size() {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        //todo: implement this method
+        return 0;
     }
 
     /**
@@ -142,6 +151,6 @@ public class LinkedList<T> implements List<T> {
      */
     @Override
     public void clear() {
-        throw new ExerciseNotCompletedException(); // todo: implement this method
+        //todo: implement this method
     }
 }
