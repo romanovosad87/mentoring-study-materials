@@ -1,11 +1,11 @@
 package reflection.generics;
 
-public class LinkedList<T> {
+public class LinkedList<T, V> {
     private Node<T> head;
     private int size;
 
-    public static<T> LinkedList<T> create(T[] array) {
-        LinkedList<T> list = new LinkedList<>();
+    public static<T, V> LinkedList<T, V> create(T[] array) {
+        LinkedList<T, V> list = new LinkedList<>();
         for (var value : array) {
             list.add(value);
         }

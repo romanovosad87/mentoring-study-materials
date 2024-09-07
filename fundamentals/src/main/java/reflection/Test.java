@@ -3,10 +3,10 @@ package reflection;
 import reflection.generics.LinkedList;
 
 public class Test {
-    public LinkedList<Integer> get() {
-        Integer[] ints = {1, 2, 3, 4};
-        return LinkedList.create(ints);
-    }
+//    public LinkedList<Integer> get() {
+//        Integer[] ints = {1, 2, 3, 4};
+//        return LinkedList.create(ints);
+//    }
 
 
 

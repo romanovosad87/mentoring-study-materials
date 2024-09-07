@@ -14,23 +14,34 @@ public class JsonMapper {
 
     /**
      * {
-     *   "name": "Bob",
-     *   "age": 30
+     * "name": "Bob",
+     * "age": 30
      * }
+     *
      * @param person
      * @return
      */
     @SneakyThrows
-    public static String convertToJson(Person person) {
-        return "";
+    public static String convertToJson(Object person) {
+        StringBuilder builder = new StringBuilder("{\n");
+        Class<?> personClass = person.getClass();
+        Field[] fields = personClass.getDeclaredFields();
+        for (var field : fields) {
+            builder.append("\t");
+            var name = field.getName();
+            builder.append("\"").append(name).append("\"").append(": ");
+            field.setAccessible(true);
+            var value = field.get(person);
+            Class<?> type = field.getType();
+            if (type.equals(int.class)) {
+                builder.append(value);
+            } else {
+                builder.append("\"").append(value).append("\"");
+            }
+            builder.append("\n");
+        }
+        builder.append("}");
 
-//        StringBuilder builder = new StringBuilder();
-//        builder.append("{").append("\n");
-//        builder.append("\t").append("\"").append("name").append("\"").append(": ").append("\"").append(person.getName()).append("\"");
-//        builder.append("\n");
-//        builder.append("\t").append("\"").append("age").append("\"").append(": ").append(person.getAge());
-//        builder.append("\n");
-//        builder.append("}");
-//        return builder.toString();
+        return builder.toString();
     }
 }
