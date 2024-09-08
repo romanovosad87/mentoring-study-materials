@@ -10,7 +10,7 @@ public class HelloService {
     private MessageService messageService;
 
     public void say() {
-        System.out.println("Hello");
+        System.out.println("Hello...");
         messageService.sing();
     }
 }
