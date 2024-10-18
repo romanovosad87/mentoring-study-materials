@@ -88,3 +88,7 @@ m
 =fundamentals/src/main/java/concurrency/mergeSort/DemoApp.java,6\7\6716c06484f8ba56591ad7d8600809fedd34aa0d
 z
 Jfundamentals/src/main/java/concurrency/mergeSort/MergeSortTaskOneFork.java,5\f\5fc0a532726c217a6790c00645226ac9aab79b0b
+_
+/fundamentals/src/main/java/patterns/Client.java,2\e\2e42271663c23428150f6b520a6b5b2b6781f848
+e
+5fundamentals/src/main/java/patterns/OrderService.java,f\a\fa5f877a64fabad163e2f5500ed0ed79f1771bc7
