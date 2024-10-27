@@ -1,17 +1,17 @@
-POST localhost:8080/mood
+POST {{url}}/mood
 Content-Type: application/json
 
 {
-  "name": "John",
-  "mood": "LAZY"
+  "name": "Roman",
+  "mood": "Inspired"
 }
 
 ###
 
-GET localhost:8080/mood
+GET {{url}}/mood
 Accept: application/json
 
 
 ###
 
-GET localhost:8080/api-docs
+GET {{url}}api-docs

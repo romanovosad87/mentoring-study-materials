@@ -1,0 +1,7 @@
+
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Óµ¨œ8ïö£Žž2J$7540b386-155e-491e-a52b-fc8ac321f0c3
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Œ¡î‚ûÿÿÿÿ8óö£Žž2J$cb982f3b-3ad1-4a70-8fdc-da66ae2567ce
+~	java:S125"<This block of commented-out lines of code should be removed.(Ð¿è¢8ÃŸ©¸š2J$4f21bcd2-8333-4f9a-ab52-3495ecf4f8e8
+ƒ
+java:S1128";Remove this unused import 'reflection.generics.LinkedList'.(†ÖØ±ûÿÿÿÿ8õö£Žž2J$900283a9-915a-4ca0-aa24-5dd1f6731655

@@ -1,0 +1,18 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ù†…‹¡2J$83ab3189-6f9b-4f80-9674-e14d5b550c18
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ù†…‹¡2J$827f9bb5-32fb-40a0-ba4f-488a4a3e5e64
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÈÜˆ‹¡2J$9bd82064-49b2-43ec-9451-d384a539312d
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ƒ‡…‹¡2J$4657b569-8cc6-48f2-be33-7c5ee7ec260c
+‹
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8„‡…‹¡2J$a46a70d4-501c-490d-ae40-fc1ad86bb28b
+m	java:S106"+Replace this use of System.out by a logger.(¾èóö8‡‡…‹¡2J$b44c5627-c79c-4ed6-ac6c-fc7d11d3adb2
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ˆ‡…‹¡2J$1bd7f92a-6685-4062-a763-7a1ffb7913a4
+‹
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8ˆ‡…‹¡2J$017016c6-b44c-462c-86f2-260f1f70ca86
+m	java:S106"+Replace this use of System.out by a logger.(¾èóö8‰‡…‹¡2J$b76aa6ae-7452-4b78-bb58-16055baf5b1e
+m	java:S106&"+Replace this use of System.out by a logger.(ìÕÿŸ8Š‡…‹¡2J$65d52d90-23bb-4ecc-9099-5b17d76b472a
+r	java:S106'"+Replace this use of System.out by a logger.(”‘­¼ûÿÿÿÿ8‹‡…‹¡2J$5c69ffb7-b764-48c5-8f9d-5f5ce9f7a243
+¡
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÙÜˆ‹¡2J$51068d87-37fb-4961-86b8-6c4ecc3f6857

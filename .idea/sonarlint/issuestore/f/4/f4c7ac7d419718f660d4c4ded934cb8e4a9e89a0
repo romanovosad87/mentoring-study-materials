@@ -1,0 +1,10 @@
+
+k
+java:S1104"PMake list a static final constant or non-public and provide accessors if needed.(†ÌÆÊþÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðì­¢øÿÿÿÿ
+T
+java:S5993	"9Change the visibility of this constructor to "protected".(’›«¾ýÿÿÿÿ
+A
+java:S1948"&Make "list" transient or serializable.(†ÌÆÊþÿÿÿÿ
+:
+java:S1659"Declare "j" on a separate line.(á”æåþÿÿÿÿ
