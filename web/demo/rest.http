@@ -1,0 +1,17 @@
+POST localhost:8080/mood
+Content-Type: application/json
+
+{
+  "name": "John",
+  "mood": "LAZY"
+}
+
+###
+
+GET localhost:8080/mood
+Accept: application/json
+
+
+###
+
+GET localhost:8080/api-docs
