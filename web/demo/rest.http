@@ -1,4 +1,4 @@
-POST {{url}}/mood
+POST {{url}}/student
 Content-Type: application/json
 
 {
@@ -8,10 +8,26 @@ Content-Type: application/json
 
 ###
 
-GET {{url}}/mood
+GET {{url}}/student/moods
 Accept: application/json
+
+###
+GET {{url}}/student
 
 
 ###
 
-GET {{url}}api-docs
+GET {{url}}/api-docs
+
+
+###
+
+PUT {{url}}/film
+Content-Type: application/json
+
+{"title":  "The Pain",
+"genre":  "ADVENTURE",
+"studentId":  2}
+
+###
+GET {{url}}/film
