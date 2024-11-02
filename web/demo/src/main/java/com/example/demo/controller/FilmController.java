@@ -29,7 +29,7 @@ public class FilmController implements FilmApi {
         Film film = filmMapper.toFilm(dto);
         film.setStudent(studentReference);
         Film savedFilm = filmRepository.save(film);
-        return new ResponseEntity<>(new FilmResponseDto(savedFilm.getTitle(), savedFilm.getGenre(), savedFilm.getStudent().getName()),
+        return new ResponseEntity<>(new FilmResponseDto(savedFilm.getTitle(), savedFilm.getGenre()),
                 HttpStatus.CREATED);
     }
 
